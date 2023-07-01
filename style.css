@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ccc;
+    background-image: url(/renan-dev/pexels-photo-1261728.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.9;
+    z-index: -1;
+    
+}
+
+.container, .about{
+    background-image:  linear-gradient(
+        145deg,
+            rgb(221, 160, 27), #3d32ce
+
+        );
+        height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 4%;
+    border-radius: 64px;
+    box-shadow: 15px 5px 15px rgb(0, 0, 0);
+    
+}
+h2{
+    padding: 2rem;
+    font-size: 2rem;
+    text-shadow: 5px 2px 2px black;
+
+}
+.box{
+    display: flex;
+    justify-content: center;
+   
+}
+.icons a{
+    display: inline-flex;
+    width: 60px;
+    height: 60px;
+    background: rgba(255, 68, 0, 0.61);
+    color: #ccc;
+    margin: 0 6px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s; 
+    font-size: 2rem;   
+}
+.icons a:hover{
+    background: #2c2c2c;
+}
+.icons a i{
+    transition: 00.4s all;
+}
+.icons a:hover > i{
+    transform: scale(1.5);
+}
+.content{
+    font-size: 3rem;
+    text-shadow: 8px 8px 5px black;
+    text-transform: uppercase;
+}
+
+.about h1{
+    font-size: 3rem;
+}
+.about-me{
+    width: 80%;
+}
+.about p{
+    font-size: 2rem;
+    
+}
+.icons-tec i{
+    display: inline-flex;
+    width: 60px;
+    height: 60px;
+    background: rgba(255, 68, 0, 0.61);
+    color: #ccc;
+    margin: 0 6px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s; 
+    font-size: 2rem; 
+}
+.icons-tec i:hover{
+    background: #2c2c2c;
+}
+footer{
+    text-align: center;
+    text-transform: uppercase;
+}
